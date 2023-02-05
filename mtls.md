@@ -92,7 +92,7 @@ Sometimes however, especially in **enterprise environments**, we don’t want ju
 mTLS is not a new protocol per se, but, simply an extension of TLS protocol. where clients also generates a key pair and client also gets authenticated by the server. before establishing a secure connection.
 
 client must have (and submit) a certificate signed by a CA that the server recognizes. **In enterprise environments, this is often a company-run internal CA, but it does not have to be.**
-![img_11.png](img_11.png)
+![img_13.png](img_13.png)
 
 mTLS is often used in a [Zero Trust](https://www.cloudflare.com/learning/security/glossary/what-is-zero-trust) security framework to verify -  users, devices, and servers within an organization. It can also help keep APIs secure.
 
